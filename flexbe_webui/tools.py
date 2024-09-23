@@ -45,7 +45,7 @@ def validate_path_consistency(python_path, manifest_path):
     min_ndx = min(len(python_path_elements), len(manifest_path_elements))
     for ndx in range(min_ndx):
         if python_path_elements[ndx] != manifest_path_elements[ndx]:
-            if ndx > 2 and (python_path_elements[ndx - 1] == 'lib' or manifest_path_elements[ndx - 1] == 'share'):
+            if ndx > 2 and (python_path_elements[ndx - 1] == 'lib' or manifest_path_elements[ndx - 1] == 'share' or  python_path_elements[ndx] == 'local'):
                 return True  # Expected breaking point
             print(f'Invalid paths at ndx={ndx}')
             print(f'  Python path: {python_path_elements}')
