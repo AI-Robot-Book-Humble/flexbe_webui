@@ -1,3 +1,10 @@
+# FlexBE WebUI for AI Robot Book (Kodansha, in Japanese)
+
+[Fixed saving path for Humble support](https://github.com/AI-Robot-Book-Humble/flexbe_webui/commit/b69a304f168bb96d90da5c469a4e626209ad65bc)
+
+The following is the original README.
+
+----------------------------------
 # FlexBE WebUI
 
 FlexBE WebUI provides a user interface to [FlexBE](https://github.com/flexbe_behavior_engine) - The Flexible Behavior Engine.
